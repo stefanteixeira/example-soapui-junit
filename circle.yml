@@ -1,0 +1,4 @@
+test:
+  post:
+    - mkdir -p $CIRCLE_TEST_REPORTS/junit
+    - cp /home/ubuntu/example-soapui-junit/target/surefire-reports/*.xml $CIRCLE_TEST_REPORTS/junit
