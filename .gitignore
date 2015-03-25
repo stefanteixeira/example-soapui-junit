@@ -1,0 +1,5 @@
+target/
+surefire/
+*.log
+.settings/
+.classpath

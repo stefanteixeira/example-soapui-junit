@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>example.soapui</groupId>
+	<artifactId>example-soapui-junit</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<repositories>
+		<repository>
+			<id>soapui</id>
+			<url>http://www.soapui.org/repository/maven2/</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+		</dependency>
+		<dependency>
+			<groupId>com.smartbear.soapui</groupId>
+			<artifactId>soapui-maven-plugin</artifactId>
+			<version>5.1.2</version>
+		</dependency>
+	</dependencies>
+</project>
