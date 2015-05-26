@@ -1,4 +1,4 @@
-package main.java.soapui.util;
+package soapui.util;
 
 import java.io.FileReader;
 import java.util.HashMap;

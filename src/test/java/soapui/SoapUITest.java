@@ -1,11 +1,12 @@
-package test.java.soapui;
+package soapui;
 
 import static org.junit.Assert.assertEquals;
-import main.java.soapui.util.SoapUIUtil;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
+
+import soapui.util.SoapUIUtil;
 
 import com.eviware.soapui.model.support.PropertiesMap;
 import com.eviware.soapui.model.testsuite.TestCase;
